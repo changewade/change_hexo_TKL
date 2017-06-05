@@ -5,8 +5,8 @@ change_hexo_TKL是我个人对SuperKieran的TKL做的修改。
 个人主页效果预览：www.changewade.live
 
 目前，已做更改如下：
-01、修改大标题title为：YOU CAN DO ALL THINGS, WELCOME.
-02、修改content为：每个清晨你都必须醒来，坐上地铁，路过他们的世界，人来人往，去属于你自己的地方。
+01、修改大标题title为：YOU CAN DO ALL THINGS, WELCOME.\n
+02、修改content为：每个清晨你都必须醒来，坐上地铁，路过他们的世界，人来人往，去属于你自己的地方。\n
 03、改变content字体大小及位置。
 04、修改背景图片bg_img。
 05、修改bottom_saying。
@@ -22,6 +22,7 @@ change_hexo_TKL是我个人对SuperKieran的TKL做的修改。
 15、修改文章底部左右跳转标签线框大小。
 
 ／********************未完待续********************／
+
 安装主题：
 1、利用cd命令进入hexo/themes/ 目录下。
 
