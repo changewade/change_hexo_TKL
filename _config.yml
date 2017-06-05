@@ -14,9 +14,9 @@ highlightjs: vs
 
 #Works
 works: 
-- works_name: Bing
+- works_name: 必应
   works_url: https://www.bing.com/
-- works_name: Google
+- works_name: 谷歌
   works_url: https://www.google.com/
 - works_name: Github
   works_url: https://www.github.com/
@@ -48,12 +48,20 @@ fancybox: true
 #about  timeline
 timeline:
 - num: 1
-  word: 2014/06/12-Start
+  word: 2017/05/19-Start
 - num: 2
-  word: 2014/11/29-XXX
+  word: 2017/06/03-简介
 - num: 3
-  word: 2015/02/18-DDD
+  word: 2017/06/03-博客内容书写基础知识
 - num: 4
+  word: 2017/06/03-草稿与主题
+- num: 5
+  word: 2017/06/03-书影短评
+- num: 6
+  word: 2017/06/03-书单与影单
+- num: 7
+  word: 2017/06/05-趣知识一
+- num: 8
   word: More
 
 #Links

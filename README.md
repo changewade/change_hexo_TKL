@@ -21,6 +21,7 @@ change_hexo_TKL是我个人对SuperKieran的TKL做的修改。
 13、修改底栏<code>2017-2017，Content By Changewade. All Rights Reserved</code>。
 14、修改<code>Read More</code>标签线框大小。
 15、修改文章底部左右跳转标签线框大小。
+16、修改了时间线。隐藏网址get：http://localhost:4000/archive/
 ／********************未完待续********************／
 ```
 安装主题：
