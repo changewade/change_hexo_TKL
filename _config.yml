@@ -1,0 +1,67 @@
+# config
+cover: /img/bg_img.jpg
+logo: /img/logo.png
+top_saying:
+- title: YOU CAN DO ALL THINGS, WELCOME.
+- content: 每个清晨你都必须醒来，坐上地铁，路过他们的世界，人来人往，去属于你自己的地方。
+bottom_saying: 会不会有那么一天，一次机缘巧合，就会改变我整个人生的方向
+# Content
+excerpt_link: Read More
+
+#rss: /atom.xml
+
+highlightjs: vs
+
+#Works
+works: 
+- works_name: Bing
+  works_url: https://www.bing.com/
+- works_name: Google
+  works_url: https://www.google.com/
+- works_name: Github
+  works_url: https://www.github.com/
+- works_name: 知乎
+  works_url: https://www.zhihu.com/
+- works_name: 豆瓣
+  works_url: https://www.douban.com/
+- works_name: 优酷
+  works_url: https://www.youku.com/
+- works_name: Youtube
+  works_url: https://www.youtube.com/
+
+#duoshuo name
+duoshuo:
+
+#disqus name
+disqus_shortname:
+
+#fancybox
+fancybox: true
+
+# Miscellaneous
+#github: https://github.com/
+#twitter: https://twitter.com/
+#facebook: https://www.facebook.com/
+#google: https://google.com/
+#weibo: http://weibo.com/
+
+#about  timeline
+timeline:
+- num: 1
+  word: 2014/06/12-Start
+- num: 2
+  word: 2014/11/29-XXX
+- num: 3
+  word: 2015/02/18-DDD
+- num: 4
+  word: More
+
+#Links
+links:
+- name: 博客入门
+  link: http://www.changewade.live/tags/博客入门/
+- name: 书与影
+  link: http://www.changewade.live/tags/书与影/
+- name: 趣知识
+  link: http://www.changewade.live/tags/趣知识/
+
