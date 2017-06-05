@@ -2,6 +2,7 @@
 change_hexo_TKL是我个人对SuperKieran的TKL做的修改。
 原TKL链接如下：https://github.com/SuperKieran/TKL
 同时，change_hexo_TKL是Hexo的一个主题。
+个人主页效果预览：www.changewade.live
 
 目前，已做更改如下：
 01、修改大标题title为：YOU CAN DO ALL THINGS, WELCOME.
