@@ -501,6 +501,8 @@ a.custom-button span {
 	position: fixed;
 	top:0;
 }
+
+/* **************顶行动画底***************** */
 .navbar .nav {
 	width:100%;
 	text-align:center;
@@ -510,6 +512,8 @@ a.custom-button span {
 	float:none;
 	display:inline-block;
 }
+
+/* **************Always welcome的字体***************** */
 .navbar .nav > li > span {
 	font-size: 12px
 }
@@ -520,18 +524,25 @@ a.custom-button span {
 .nav>li>a:focus {
 	background-color: transparent;
 }
+
+
 .navbar .nav > li > a {
 	display: block;
+/* **************左线长度（0），左竖线距左侧文字距离（10）***************** */
 	padding:0px 10px;
+/* *************change位置（23），左竖线距右侧文字距离（0）***************** */
 	margin:23px 0px;
 	color: #151515;
 	font-family: 'Montserrat', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	text-transform: uppercase;
+    /* *************CHANGE字间距（1），字大小（11）***************** */
 	letter-spacing: 1px;
 	font-size: 11px;
 	font-weight: 400;
+        /* *************CHANGE右侧线长（14）***************** */
 	line-height: 14px;
 	text-shadow: none;
+        /* ********左线宽（1）***************** */
 	border-right:1px solid #aaa;
 }
 .navbar .nav li.nolink {
@@ -539,14 +550,20 @@ a.custom-button span {
 	color: #151515;
 	font-weight: 400;
 	text-shadow: none;
+        /* ********CHANGE线右侧文字间距（1），线长（14），字大小（11）行位置（23）右线距右侧文字距离（0）***************** */
 	letter-spacing: 1px;
 	line-height: 14px;
 	text-transform: uppercase;
 	font-size: 11px;
 	margin:23px 0px;
+        /* ********右线宽（1）***************** */
 	border-right:1px solid #aaa;
+        /* ********右线长度（0）***************** */
 	padding: 0px 10px;
 }
+
+
+
 nav i.icon-basic-eye {
 	font-size: 20px;
 	line-height: 0;
@@ -628,6 +645,9 @@ nav i.icon-basic-eye {
 #sb-site {
 	min-height:100% !important;
 }
+
+
+            /* ********顶栏菜单more左右位置（0），距右位置（74），高位置（14）***************** */
 .learnmore {
 	position: absolute;
 	right: 0;
@@ -642,6 +662,8 @@ nav i.icon-basic-eye {
 	font-weight: 400;
 	cursor: pointer;
 }
+
+
 @media (max-width:767px) {
 	.learnmore {
 		display: none;
@@ -667,6 +689,7 @@ button.navbar-toggle {
 	margin-right: 0;
 }
 
+/* menu菜单三条横向的大小（25，2） */
 .menu-icon .before, .menu-icon .main, .menu-icon .after {
 	display: block;
 	width: 25px;
@@ -711,6 +734,8 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	text-align: right;
 	cursor: pointer;
 }
+
+
 .sb-close img{
 	padding: 10px 16px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
@@ -750,6 +775,8 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	margin: 0;
 	list-style-type: none;
 }
+
+/* 右侧导航栏内，文字所占宽度（100%） */
 .sb-menu li {
 	width: 100%;
 	padding: 0;
@@ -757,7 +784,8 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	color: #666;
 	font-style: normal;
 	font-weight: 600;
-	line-height: 20px;
+/* 右侧导航栏内，行高（20） */
+	line-height: 40px;
 	font-family: 'Open Sans', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 .sb-menu > li:first-child {
@@ -768,6 +796,7 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 }
 .sb-menu li a {
 	font-family: 'Open Sans', Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
+/* 右侧导航栏内，子目录文字所占宽度（100%） */
 	width: 100%; /* Makes links full width. */
 	display: inline-block;
 	font-weight: 600;
@@ -781,8 +810,10 @@ html.sb-init.sb-active.sb-active-right #projects .filter-item div a {
 	text-decoration: none !important;
 }
 /* Borders */
+
+/* 右侧导航栏内，文字动画缩进（3，3）无效果，调为10，3可见动画效果 */
 .sb-right .sb-menu li a {
-	border-left: 3px solid transparent;
+	border-left: 10px solid transparent;
 }
 .sb-right .sb-menu li a:hover {
 	border-left: 3px solid; /* Removes transparent colour, so border colour will be the same as link hover colour. */
@@ -808,11 +839,13 @@ ul.sb-submenu li a:hover {
 }
 .sb-submenu {
 	display: none;
-	padding: 10px 10px 16px;
+/* 子标题，距上高（10）缩进（10）距下高（16） */
+	padding: 10px 20px 16px;
 	margin: 0;
 	list-style-type: none;
 }
 /* Submenu parent item caret */
+/* 子标题三角符号宽（0，0，0  5，5） */
 span.sb-caret {
 	width: 0;
 	height: 0;
@@ -820,6 +853,7 @@ span.sb-caret {
 	margin: 0 5px;
 	border: 5px solid transparent;
 }
+/* 子标题三角符号高（0，0，0  5，5） */
 span.sb-caret { /* Caret Down */
 	border-top: 5px solid;
 	border-bottom: 0px solid transparent;
@@ -828,9 +862,11 @@ span.sb-caret { /* Caret Down */
 	border-top: 0px solid transparent;
 	border-bottom: 5px solid;
 }
+
+/* About，RSS，距上高（24），距左宽（34）*/
 /* Secondary menu-items block, (different text styling) */
 .sb-menu.secondary {
-	padding: 24px 34px;
+	padding: 4000px 5000px;
 }
 .sb-menu.secondary a {
 	text-transform: none;
@@ -845,22 +881,27 @@ span.sb-caret { /* Caret Down */
 /* *******************************************************
 * Full-height hero section, (homepage, above the fold,)
 ******************************************************* */
+
+/* 首页图片（100%，100%） */
 #hero {
 	height: 100%;
 	position: fixed;
 	width: 100%;
 	padding-top: 0;
 }
+
+/* 首页图片第二行文字高度（20，14） */
 #hero h2 {
 	color: #151515;
 	margin-bottom: 20px;
 	display: inline-block;
-	padding: 14px;
+	padding: 20px;
 }
 #hero p {
 	color: #333;
 	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
-	font-size: 18px;
+    /* 首页图片第二行文字大小（18） */
+	font-size: 17px;
 	display: inline-block;
 }
 @media (max-width:1024px) {
@@ -1531,9 +1572,11 @@ hr.byline-accent {
 ******************************************************* */
 #statement {
 	background-color: #fff;
+    /* **********主页底文字，距上高（60），0，距下高（20），************* */
 	padding: 60px 0 20px;
 }
 
+ /* **********主页底文字大小************* */
 #statement p {
 	font-family: 'Georgia', serif, Helvetica, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-style: italic;
@@ -3085,6 +3128,7 @@ button.send{
 * Global footer, (all pages)
 ******************************************************* */
 footer {
+ /* **********主页底黑边（5%，0，0，9），************* */
 	padding:5% 0 0;
 	background:#151515;
 	z-index: 9;
@@ -3275,13 +3319,15 @@ footer .footer_bottom {
 }
 
 /*add css*/
+
+ /* **********read more 字大小（12），距上下边框（2，2），距左右长（10，10）线宽（1）************* */
 .readMore a {
 	font-size: 12px;
 	color: gray!important;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	border: 1px solid gray;
 	border-radius: 20px;
 }
@@ -3294,17 +3340,18 @@ footer .footer_bottom {
 	display: block;
 	margin: auto;
 }
+ /* **********文章内底按钮 距左右长（10，10）线宽（1），20，100%，距下高（10）************* */
 .pagination a{
 	color: gray;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	border: 1px solid gray;
 	border-radius: 20px;
 	max-width: 100%;
 	text-overflow: ellipsis;
 	overflow: hidden;
   	white-space: nowrap;
-  	margin-bottom: 10px;
+  	margin-bottom: 30px;
 }
 .pagination a:hover{
 	background-color: gray;
