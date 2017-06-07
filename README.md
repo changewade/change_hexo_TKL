@@ -75,9 +75,9 @@ tags:
 
 注意：
 
-1、<code>title: </code>后内容与文件名一致
+* <code>title: </code>后内容与文件名一致
 
-2、冒号后均有一空格
+* 冒号后均有一空格
 
 #### 3、修改<code>WORKS</code>下子标题为博客内容标签。
 
