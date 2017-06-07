@@ -12,22 +12,38 @@ excerpt_link: Read More
 
 highlightjs: vs
 
+
+#Links
+links:
+- name: Bing
+  link: https://www.bing.com/
+- name: Google
+  link: https://www.google.com/
+- name: Github
+  link: https://www.github.com/
+- name: 知乎
+  link: https://www.zhihu.com/
+- name: 豆瓣
+  link: https://www.douban.com/
+- name: 优酷
+  link: https://www.youku.com/
+- name: Youtube
+  link: https://www.youtube.com/
+
+
 #Works
 works: 
-- works_name: 必应
-  works_url: https://www.bing.com/
-- works_name: 谷歌
-  works_url: https://www.google.com/
-- works_name: Github
-  works_url: https://www.github.com/
-- works_name: 知乎
-  works_url: https://www.zhihu.com/
-- works_name: 豆瓣
-  works_url: https://www.douban.com/
-- works_name: 优酷
-  works_url: https://www.youku.com/
-- works_name: Youtube
-  works_url: https://www.youtube.com/
+- works_name: timeline
+  works_url: http://www.changewade.live/timeline/
+- works_name: 博客入门
+  works_url: http://www.changewade.live/tags/博客入门/
+- works_name: 书与影
+  works_url: http://www.changewade.live/tags/书与影/
+- works_name: 趣知识
+  works_url: http://www.changewade.live/tags/趣知识/
+- works_name: 文章
+  works_url: http://www.changewade.live/tags/文章/
+
 
 #duoshuo name
 duoshuo:
@@ -64,12 +80,5 @@ timeline:
 - num: 8
   word: More
 
-#Links
-links:
-- name: 博客入门
-  link: http://www.changewade.live/tags/博客入门/
-- name: 书与影
-  link: http://www.changewade.live/tags/书与影/
-- name: 趣知识
-  link: http://www.changewade.live/tags/趣知识/
+
 
